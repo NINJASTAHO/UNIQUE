@@ -323,3 +323,66 @@ a, a:hover{
 	border-left: 1px solid #f2f2f2;
 	border-right: 1px solid #f2f2f2; 
 }
+/**************************************/
+.testimonial{
+	width: 100%;
+	padding: 35px 0px 80px;
+}
+.testimonial .title{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+.testimonial .title h1{
+	font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.testi-inner{
+	width: 100%;
+	padding: 0px;
+	background: url("../images/coma.png") center top no-repeat;
+	background-size: cover;
+	box-shadow: 1px 4px 10px #ccc;
+	opacity: .5;
+}
+.testi-inner:hover{
+	opacity: 1;
+}
+.testi-inner .text-inner{
+	width: 100%;
+	padding: 65px 0px 40px;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2;
+}
+.testi-inner .text-inner h4{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	margin: 20px;
+}
+.testi-inner:hover .text-inner h4{
+	color: #511de5;
+}
+.testi-inner .client-inner{
+	width: 100%;
+	padding: 20px 0px 10px;
+	text-align: center;
+}
+.testi-inner .client-inner img{
+
+}
+.testi-inner .client-inner h4{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 900;
+	margin: 10px 0px 0px;
+	text-transform: uppercase;
+}
+.testi-inner .client-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #1a1a1a;
+}
