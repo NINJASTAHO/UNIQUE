@@ -55,22 +55,22 @@ a, a:hover{
     text-transform: capitalize;
     border-radius: 35px;
     background: linear-gradient(to right, #511de5 55%, #0d89fb);
-    border: none; 
+    border: 1px solid #511de5;
 }
 .menu-section .right-login .btn-info:hover{
 	color: #511de5; 
 	background: transparent;
 	border: 1px solid #511de5;
-	transition: 1s;
+	transition: 2s;
 }
 /*banner section goes here*/
 .banner-section{
 	width: 100%;
-	padding: 60px 0px 90px;
+	padding: 90px 0px;
 }
 .banner-section .banner-inner{
 	width: 100%;
-	padding: 90px 0px 90px;
+	padding: 90px 0px 120px;
 }
 .banner-section .banner-inner h1{
 	width: 100%;
@@ -117,4 +117,104 @@ a, a:hover{
     font-weight: 500;
     text-align: center;
     margin-bottom: 0px;
+}
+/***********************************/
+.feature{
+	width: 100%;
+	padding: 110px 0px 0px;
+}
+.feature .feature-inner{
+	width: 100%;
+	padding: 50px 120px 150px;
+	background: url("../images/fe.png") center bottom no-repeat;
+	background-size: cover;
+}
+.feature .feature-inner h1{
+	color: #1a1a1a;
+    font-size: 52px;
+    line-height: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.feature .feature-inner p{
+	color: #1a1a1a;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.feature .feature-inner h4 strong{
+	font-size: 110px;
+    line-height: 120px;
+    font-weight: 900;
+    color: #511de5;
+    margin-bottom: 20px;
+}
+.feature .feature-inner h4 span{
+	font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.client{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.client img{
+	width: 80%;
+}
+/*********************************/
+.intro-quote{
+	width: 100%;
+	padding: 150px 0px 110px;
+	background: url("../images/d.png") center top no-repeat;
+	background-size: cover;
+}
+.pic-quote{
+	width: 100%;
+	padding: 150px 105px;
+	background: url("../images/qt.png") center center no-repeat;
+	background-size: contain;
+}
+.pic-quote p{
+	font-size: 14px;
+	color: #fff;
+	margin: 20px 0px 30px 25px;
+}
+.pic-quote h5{
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	margin: 20px 0px 30px 25px;
+}
+.quote-des{
+	width: 100%;
+	padding: 100px 30px;
+}
+.quote-des h1{
+	color: #1a1a1a;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 900;
+    margin-bottom: 30px;
+} 
+.quote-des .btn-info{
+	padding: 10px 30px;
+	margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #1a1a1a;
+    text-transform: capitalize;
+    border-radius: 35px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2; 
+    transition: 1s;
+}
+.quote-des .btn-info:hover{
+	color: #fff;
+    background: #511de5;
+    border: 1px solid #511de5; 
 }
