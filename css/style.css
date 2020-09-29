@@ -386,3 +386,85 @@ a, a:hover{
 	line-height: 24px;
 	color: #1a1a1a;
 }
+/*************************************/
+.footer-section{
+	width: 100%;
+	padding: 120px 0px 60px;
+	background: url("../images/bg.png") center bottom no-repeat;
+	background-size: contain;
+}
+.footer-section .faq{
+	width: 100%;
+	padding: 70px 80px;
+	margin-bottom: 35px;
+	background: #fff;
+	box-shadow: 1px 4px 10px #ccc;
+}
+.footer-section .faq .title{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+.footer-section .faq .title h1{
+	font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.footer-section .faq .card{
+	background-color: #fff;
+	border: none;
+}
+.footer-section .faq .card-header{
+padding: .75rem 0rem;
+background-color: #fff;
+border-bottom: 0px; 
+}
+.footer-section .faq .card-body{
+	padding: 13px;
+}
+.footer-section .faq .btn-link{
+	font-weight: 700;
+	color: #000;
+	font-size: 16px;
+}
+.footer-section .faq .btn-link:hover{
+	color: #511de5;
+	text-decoration: none; 
+}
+.footer-section .faq .btn-link:focus {
+    color: #511de5;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none; 
+}
+/*****************************/
+.footer-menu {
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+}
+.footer-menu ul {
+    display: block;
+}
+.footer-menu ul li {
+	font-size: 15px;
+	font-weight: 500;
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-copyright {
+	margin-top: 50px;
+	width: 100%;
+	text-align: right;
+}
+.footer-copyright p {
+    font-size: 15px;
+	font-weight: 500;
+    color: #ffffff;
+}
