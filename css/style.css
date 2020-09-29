@@ -52,16 +52,16 @@ a, a:hover{
     font-size: 14px;
     font-weight: 500;
     color: #fff;
-    text-transform: capitalize;
     border-radius: 35px;
     background: linear-gradient(to right, #511de5 55%, #0d89fb);
     border: 1px solid #511de5;
 }
-.menu-section .right-login .btn-info:hover{
+.menu-section .right-login .btn-info:hover, .menu-section .right-login .btn-info:focus{
 	color: #511de5; 
 	background: transparent;
 	border: 1px solid #511de5;
 	transition: 2s;
+	box-shadow: none;
 }
 /*banner section goes here*/
 .banner-section{
@@ -88,16 +88,17 @@ a, a:hover{
     font-weight: 600;
     letter-spacing: 3px;
     color: #1a1a1a;
-    text-transform: capitalize;
+    text-transform: uppercase;
     border-radius: 35px;
     background: #f2f2f2;
     border: 1px solid #f2f2f2; 
     transition: 1s;
 }
-.banner-section .banner-inner .btn-info:hover{
+.banner-section .banner-inner .btn-info:hover, .banner-section .banner-inner .btn-info:focus{
 	color: #fff;
     background: #511de5;
     border: 1px solid #511de5; 
+    box-shadow: none;
 }
 /**************************************/
 .highlight-section{
@@ -168,7 +169,7 @@ a, a:hover{
 /*********************************/
 .intro-quote{
 	width: 100%;
-	padding: 150px 0px 110px;
+	padding: 150px 0px 140px;
 	background: url("../images/d.png") center top no-repeat;
 	background-size: cover;
 }
@@ -207,7 +208,7 @@ a, a:hover{
     font-weight: 600;
     letter-spacing: 3px;
     color: #1a1a1a;
-    text-transform: capitalize;
+    text-transform: uppercase;
     border-radius: 35px;
     background: #f2f2f2;
     border: 1px solid #f2f2f2; 
@@ -217,4 +218,108 @@ a, a:hover{
 	color: #fff;
     background: #511de5;
     border: 1px solid #511de5; 
+}
+/******************************/
+.efficient{
+	width: 100%;
+	padding: 0px 0px 50px;
+}
+.efficient .inner-effi{
+	width: 100%;
+	padding: 0px 0px 30px;
+	margin-top: 55px;
+}
+.efficient .inner-effi h2{
+	font-size: 42px;
+    line-height: 52px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+} 
+.efficient .inner-effi p{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+} 
+.efficient .inner-effi h6{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    color: #1a1a1a;
+} 
+.efficient .inner-effi h6 img{
+	margin-right: 10px;
+}
+.efficient .inner-effi .btn-info{
+	padding: 10px 30px;
+	margin: 40px 0px 30px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background: linear-gradient(to right, #511de5 55%, #0d89fb);
+    border: 1px solid #f2f2f2;
+    color: #fff; 
+    transition: 1s;
+}
+.efficient .inner-effi .btn-info:hover, .efficient .inner-effi .btn-info:focus{
+	color: #511de5; 
+	background: transparent;
+	border: 1px solid #511de5;
+	transition: 2s;
+	box-shadow: none;
+}
+/****************************/
+.design{
+	width: 100%;
+	padding: 60px 0px;
+	background: #fcfcfc;
+}
+.design .title{
+	width: 100%;
+	padding: 30px 0px 50px;
+	text-align: center;
+}
+.design .title h1{
+	font-size: 42px;
+    line-height: 52px;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.design .title p{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 25px;
+}
+.design .design-inner{
+	width: 100%;
+	padding: 30px 40px;
+	text-align: center;
+}
+.design .design-inner img{
+	mix-blend-mode: darken; 
+}
+.design .design-inner h5{
+	font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+.design .design-inner p{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+.design .bor{
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2; 
 }
