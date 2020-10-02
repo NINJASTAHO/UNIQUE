@@ -70,13 +70,14 @@ a, a:hover{
 }
 .banner-section .banner-inner{
 	width: 100%;
-	padding: 90px 0px 120px;
+	padding: 100px 0px 120px;
 }
-.banner-section .banner-inner h1{
-	width: 100%;
-	font-size: 45px;
-	line-height: 55px;
-	font-weight: 500;
+.banner-section .banner-inner h1 {
+    width: 100%;
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 .banner-section .banner-inner h1 span{
 	color: #511de5; 
@@ -103,14 +104,14 @@ a, a:hover{
 /**************************************/
 .highlight-section{
 	width: 100%;
-	padding: 40px 0px;
+	padding: 50px 0px;
 	background: url("../images/highlight.png") center center no-repeat;
 	background-size: cover;
 	position: relative;
 }
 .highlight-section .absu{
 	position: absolute;
-	top: -170%;
+	top: -195%;
 }
 .highlight-section .highlight-inner h2 {
     color: #fff;
@@ -122,20 +123,20 @@ a, a:hover{
 /***********************************/
 .feature{
 	width: 100%;
-	padding: 110px 0px 0px;
+	padding: 100px 0px 0px;
 }
 .feature .feature-inner{
 	width: 100%;
-	padding: 50px 120px 150px;
+	padding: 120px 120px 191px;
 	background: url("../images/fe.png") center bottom no-repeat;
 	background-size: cover;
 }
 .feature .feature-inner h1{
 	color: #1a1a1a;
-    font-size: 52px;
-    line-height: 55px;
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
 }
 .feature .feature-inner p{
 	color: #1a1a1a;
@@ -196,8 +197,8 @@ a, a:hover{
 }
 .quote-des h1{
 	color: #1a1a1a;
-    font-size: 38px;
-    line-height: 48px;
+    font-size: 50px;
+    line-height: 50px;
     font-weight: 900;
     margin-bottom: 30px;
 } 
@@ -230,9 +231,9 @@ a, a:hover{
 	margin-top: 55px;
 }
 .efficient .inner-effi h2{
-	font-size: 42px;
-    line-height: 52px;
-    font-weight: 800;
+	font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
     color: #1a1a1a;
     margin-bottom: 20px;
 } 
@@ -275,7 +276,7 @@ a, a:hover{
 /****************************/
 .design{
 	width: 100%;
-	padding: 60px 0px;
+	padding: 60px 0px 25px;
 	background: #fcfcfc;
 }
 .design .title{
@@ -284,11 +285,11 @@ a, a:hover{
 	text-align: center;
 }
 .design .title h1{
-	font-size: 42px;
-    line-height: 52px;
+	font-size: 50px;
+    line-height: 50px;
     font-weight: 900;
     color: #1a1a1a;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .design .title p{
 	font-size: 14px;
@@ -326,7 +327,7 @@ a, a:hover{
 /**************************************/
 .testimonial{
 	width: 100%;
-	padding: 35px 0px 80px;
+	padding: 40px 0px 80px;
 }
 .testimonial .title{
 	width: 100%;
@@ -334,11 +335,11 @@ a, a:hover{
 	text-align: center;
 }
 .testimonial .title h1{
-	font-size: 45px;
-    line-height: 55px;
-    font-weight: 700;
+	font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
     color: #1a1a1a;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .testi-inner{
 	width: 100%;
@@ -389,7 +390,7 @@ a, a:hover{
 /*************************************/
 .footer-section{
 	width: 100%;
-	padding: 120px 0px 60px;
+	padding: 50px 0px 60px;
 	background: url("../images/bg.png") center bottom no-repeat;
 	background-size: contain;
 }
@@ -402,15 +403,15 @@ a, a:hover{
 }
 .footer-section .faq .title{
 	width: 100%;
-	padding: 30px 0px;
+	padding: 10px 0px 30px;
 	text-align: center;
 }
 .footer-section .faq .title h1{
-	font-size: 45px;
-    line-height: 55px;
-    font-weight: 700;
+	font-size: 75px;
+    line-height: 85px;
+    font-weight: 1000;
     color: #1a1a1a;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
 }
 .footer-section .faq .card{
 	background-color: #fff;
