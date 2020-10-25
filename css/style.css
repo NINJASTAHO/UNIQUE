@@ -16,7 +16,7 @@ a, a:hover{
 /*Header section goes here*/
 .header-section{
 	width: 100%;
-	background: url("../images/banner.png");
+	background: url("../images/banner.png") center right no-repeat;
 	background-size: cover; 
 }
 .menu-section{
@@ -97,9 +97,10 @@ a, a:hover{
 }
 .banner-section .banner-inner .btn-info:hover, .banner-section .banner-inner .btn-info:focus{
 	color: #fff;
-    background: #511de5;
+    background: linear-gradient(to right, #511de5 55%, #0d89fb);
     border: 1px solid #511de5; 
     box-shadow: none;
+    outline: none;
 }
 /**************************************/
 .highlight-section{
@@ -217,7 +218,7 @@ a, a:hover{
 }
 .quote-des .btn-info:hover{
 	color: #fff;
-    background: #511de5;
+    background: linear-gradient(to right, #511de5 55%, #0d89fb);
     border: 1px solid #511de5; 
 }
 /******************************/
@@ -418,9 +419,9 @@ a, a:hover{
 	border: none;
 }
 .footer-section .faq .card-header{
-padding: .75rem 0rem;
-background-color: #fff;
-border-bottom: 0px; 
+	padding: .75rem 0rem;
+	background-color: #fff;
+	border-bottom: 0px; 
 }
 .footer-section .faq .card-body{
 	padding: 13px;
@@ -468,4 +469,654 @@ border-bottom: 0px;
     font-size: 15px;
 	font-weight: 500;
     color: #ffffff;
+}
+
+/**********Media Queries start here**********/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  	
+  	.header-section {
+    	background-size: cover;
+  	}
+  	.menu-section .navbar-light .navbar-nav .nav-link:hover, .menu-section .navbar-light .navbar-nav .nav-link:focus{
+	  	width: 85px;
+	}
+  	.menu-section .right-login .nav-link {
+	    margin: 0px 0px;
+	    margin-left: 65%;
+	    margin-top: -5px;
+	    margin-right: 5%;
+	}
+	.banner-section {
+    	padding: 0px 0px;
+  	}
+  	.banner-section .banner-inner h1 {
+	    font-size: 34px;
+	    line-height: 43px;
+	}
+	.highlight-section{
+		padding: 35px 0px;
+		margin-bottom: 20px;
+	}
+	.highlight-section .absu {
+	    position: absolute;
+	    top: -175%;
+	    width: 230px;
+	}
+	.highlight-section .highlight-inner h2 {
+   		font-size: 18px;
+   	}
+   	.feature {
+		padding: 0px 30px 0px;
+	}
+	.feature .feature-inner {
+    	background: url(../images/fe.png) center top no-repeat;
+    	background-size: cover;
+    	padding: 70px 12px 95px;
+	}
+	.feature .feature-inner h1 {
+	    font-size: 34px;
+	    line-height: 36px;
+	    font-weight: 700;
+	    margin-bottom: 15px;
+	    padding-left: 52px;
+	}
+	.feature .feature-inner p {
+	    font-size: 16px;
+	    line-height: 20px;
+	    margin-bottom: 20px;
+		padding-left: 52px;
+		padding-right: 270px;
+	}
+	.feature .feature-inner h4 strong {
+	    font-size: 60px;
+	    line-height: 80px;
+	    font-weight: 900;
+	    margin-bottom: 20px;
+	    padding-left: 50px; 
+	}
+	.feature .feature-inner h4 span {
+    	font-size: 13px;
+    }
+    .client {
+    	padding: 30px 80px 0px;
+	}
+	.pic-quote {
+	    width: 118%;
+	    padding: 75px 0px 75px 65px;
+	    background: url(../images/qt.png) center center no-repeat;
+	    background-size: contain;
+	}
+	.pic-quote p {
+	    font-size: 12px;
+	    margin: 30px 0px 0px 25px;
+	}	
+	.pic-quote h5 {
+	    font-size: 13px;
+	    font-weight: 600;
+	}
+	.quote-des { 
+	    padding: 80px 5px 0px 55px;
+	}
+	.quote-des h1 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    margin-bottom: 18px;
+	}
+	.efficient .inner-effi {
+	    margin-top: -15px;
+	}
+	.efficient .inner-effi h2 {
+	    font-size: 28px;
+	    line-height: 32px;
+	    font-weight: 800;
+	    margin-bottom: 12px;
+	}
+	.efficient .inner-effi h6 {
+	    font-size: 11px;
+	    line-height: 30px;
+	    font-weight: 800;
+	}
+	.efficient .inner-effi p {
+    	font-size: 16px; 
+    	line-height: 22px;
+   	}
+   	.efficient .inner-effi .btn-info {
+    	margin: 20px 0px 30px;
+    }
+    .design{
+    	padding-top: 30px;
+    }
+    .design .title h1 {
+		font-size: 30px;
+		line-height: 34px;
+		font-weight: 800;
+		margin-bottom: 25px;
+	}
+	.design .design-inner{
+		padding: 30px 0px;
+	}
+	.design .design-inner h5 {
+	    font-size: 17px;
+	    line-height: 25px;
+	    margin-top: 20px;
+	}
+	.design .design-inner p {
+	    font-size: 14px;
+	}
+	.testimonial {
+	    padding: 20px 0px;
+	}
+	.testimonial .title h1 {
+	    font-size: 35px;
+	    line-height: 10px;
+	    font-weight: 800;
+	    margin-bottom: 35px;
+	}
+	.testi-inner .text-inner {
+    	padding: 20px 0px 0px;
+    }
+    .testi-inner .text-inner h4 {
+	    font-size: 14px;
+	    line-height: 24px;
+	    font-weight: 600;
+	    margin: 20px 10px;
+	}
+	.footer-section{
+		padding-bottom: 40px;
+	}
+	.footer-section .faq {
+	    width: 100%;
+	    padding: 60px 70px;
+	    margin-bottom: -6px;
+	}
+	.footer-section .faq .title h1 {
+	    font-size: 40px;
+	    line-height: 50px;
+	    margin-bottom: 0px;
+	}
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  	.menu-section .navbar-light .navbar-nav .nav-link:hover, .menu-section .navbar-light .navbar-nav .nav-link:focus{
+		width: 100%;
+		color: #511de5;
+		background: url("../images/underline.png") center bottom no-repeat;
+		background-size: contain;
+	}
+	.menu-section .right-login .nav-link {
+		color: #1a1a1a;
+	    font-size: 14px;
+	    font-weight: 600;
+	    margin: 0px 15px;
+	}
+	.feature .feature-inner {
+		background-size: contain;
+		padding: 75px 130px 120px;	
+	}
+	.pic-quote {
+	    width: 118%;
+	    padding: 75px 0px 75px 130px;
+	} 
+	.efficient .inner-effi {
+    	margin-top: 10px;
+    }
+	.efficient .inner-effi p {
+    	font-size: 20px;
+    	line-height: 28px;	
+   	}
+   	.efficient .inner-effi h6 {
+    	font-size: 13px;
+    }
+   	.efficient .inner-effi .btn-info {
+    	margin: 20px 0px 30px;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  	.header-section {
+    	background-size: cover;
+  	}
+  	.menu-section .navbar-light .navbar-nav .nav-link:hover, .menu-section .navbar-light .navbar-nav .nav-link:focus{
+	  	width: 85px;
+	  	background: none;
+	}
+  	.menu-section .right-login .nav-link {
+	    margin: 0px 0px;
+	    margin-left: -1%;
+	    margin-top: -5px;
+	    margin-right: 53%;
+	}
+	.menu-section .right-login .btn-info {
+    	padding: 5px 18px;
+	}
+	.banner-section {
+    	padding: 0px 0px;
+  	}
+  	.banner-section .banner-inner h1 {
+		font-size: 25px;
+	    line-height: 29px;
+	    text-align: left;
+	    margin-bottom: 15px;
+	    margin-top: -66px;
+	    padding-left: 25px;
+	}
+	.banner-section .banner-inner .btn-info {
+	    padding: 6px 15px;
+	    margin-left: -306px;
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    position: absolute;
+	}
+	.highlight-section{
+		padding: 35px 0px;
+		margin-bottom: 20px;
+	}
+	.highlight-section .absu {
+	    position: absolute;
+	    top: -190%;
+	    width: 140px;
+	}
+	.highlight-section .highlight-inner h2 {
+   		font-size: 11px;
+   		line-height: 16px;
+   		margin-left: 80px;
+   	}
+   	
+  	.feature {
+		padding: 10px 0px 10px;
+	}
+	.feature .feature-inner {
+    	background: url(../images/fe.png) center bottom no-repeat;
+    	background-size: cover;
+    	padding: 30px 10px 30px;
+	}
+	.feature .feature-inner h1 {
+	    font-size: 18px;
+	    line-height: 23px;
+	    font-weight: 700;
+	    margin-bottom: 15px;
+	}
+	.feature .feature-inner p {
+	    font-size: 11px;
+	    line-height: 17px;
+	    margin-bottom: 20px;
+	    padding-right: 90px;
+	}
+	.feature .feature-inner h4 strong {
+	    font-size: 30px;
+	    line-height: 40px;
+	    font-weight: 900;
+	    margin-bottom: 20px;
+	}
+	.feature .feature-inner h4 span {
+    	font-size: 13px;
+    }
+    .client {
+    	padding: 30px 0px 0px;
+	}
+	.intro-quote{
+		padding: 20px 0px;
+	}
+	.pic-quote {
+	    width: 100%;
+	    padding: 75px 0px 75px 75px;
+	    background: url(../images/qt.png) center center no-repeat;
+	    background-size: contain;
+	}
+	.pic-quote p {
+	    font-size: 12px;
+	    margin: 30px 0px 0px 25px;
+	}	
+	.pic-quote h5 {
+	    font-size: 11px;
+	    font-weight: 600;
+	}
+	.quote-des { 
+	    padding: 40px 0px 55px;
+	    text-align: center;
+	}
+	.quote-des h1 {
+	    font-size: 20px;
+	    line-height: 26px;
+	    margin-bottom: 18px;
+	}
+	.efficient .inner-effi {
+	    margin-top: -15px;
+	}
+	.efficient .inner-effi h2 {
+	    font-size: 17px;
+	    line-height: 24px;
+	    font-weight: 700;
+	    margin-bottom: 12px;
+	}
+	.efficient .inner-effi h6 {
+	    font-size: 11px;
+	    line-height: 20px;
+	    font-weight: 800;
+	}
+	.efficient .inner-effi p {
+    	font-size: 10px; 
+    	line-height: 18px;
+   	}
+   	.efficient .inner-effi .btn-info {
+    	margin: 20px 0px 0px 0px;
+    	padding: 10px 18px;
+	    font-size: 11px;
+	    letter-spacing: 2px;
+    }
+    .design{
+    	padding: 0px;
+    }
+    .design .title {
+    	padding: 10px 0px 20px;
+    }
+    .design .title h1 {
+		font-size: 18px;
+		line-height: 23px;
+		margin-bottom: 15px;
+	}
+	.design .title p {
+	    font-size: 13px;
+	    line-height: 22px;
+	    padding: 0px 43px;
+	    margin-bottom: 15px;
+	}
+	.design .design-inner{
+		padding: 30px 0px;
+	}
+	.design .design-inner h5 {
+	    font-size: 17px;
+	    line-height: 25px;
+	    margin-top: 20px;
+	}
+	.design .design-inner p {
+	    font-size: 14px;
+	}
+	.testimonial {
+	    padding: 10px 0px;
+	}
+	.testimonial .col-md-3{
+		padding: 0px 50px;
+	}
+	.testimonial .title h1 {
+	    font-size: 19px;
+	    line-height: 10px;
+	    margin-bottom: 20px;
+	}
+	.testi-inner{
+		margin-bottom: 40px;
+	}
+	.testi-inner .text-inner {
+    	padding: 20px 0px 0px;
+    }
+    .testi-inner .text-inner h4 {
+	    font-size: 14px;
+	    line-height: 24px;
+	    font-weight: 600;
+	    margin: 20px 10px;
+	}
+	.footer-section{
+		padding-bottom: 0px;
+		padding-top: 0px;
+		background-size: cover;
+	}
+	.footer-section .faq {
+	    padding: 15px 10px;
+	    margin-bottom: 0px;
+	}
+	.footer-section .faq .title h1 {
+	    font-size: 22px;
+	    line-height: 27px;
+	    margin-bottom: 0px;
+	}
+	.footer-section .faq .btn-link {
+		font-size: 13px;
+	}
+	.footer-section .faq .card-body{
+		padding-top: 0px;
+	}
+	.footer-menu ul{
+		margin-top: -30px;
+	}
+	.footer-menu ul li {
+	    font-size: 13px;
+	    margin: 0px 15px 0px 0px;
+	}
+	.footer-copyright p {
+	    font-size: 12px;
+	    text-align: left;
+	    margin-top: -50px;
+	    padding-bottom: 10px;
+	}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  	.header-section {
+    	background-size: cover;
+  	}
+  	.menu-section .navbar-light .navbar-nav .nav-link:hover, .menu-section .navbar-light .navbar-nav .nav-link:focus{
+	  	width: 85px;
+	  	background: none;
+	}
+  	.menu-section .right-login .nav-link {
+	    margin: 0px 0px;
+	    margin-left: -1%;
+	    margin-top: -5px;
+	    margin-right: 72%;
+	}
+	.menu-section .right-login .btn-info {
+    	padding: 5px 18px;
+	}
+	.banner-section {
+    	padding: 0px 0px;
+  	}
+  	.banner-section .banner-inner h1 {
+		font-size: 25px;
+	    line-height: 29px;
+	    text-align: left;
+	    margin-bottom: 15px;
+	    margin-top: -66px;
+	    padding-left: 25px;
+	}
+	.banner-section .banner-inner .btn-info {
+	    padding: 6px 15px;
+	    margin-left: -485px;
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    position: absolute;
+	}
+	.highlight-section{
+		padding: 35px 0px;
+		margin-bottom: 20px;
+	}
+	.highlight-section .absu {
+	    position: absolute;
+	    top: -220%;
+	    width: 200px;
+	}
+	.highlight-section .highlight-inner h2 {
+   		font-size: 11px;
+   		line-height: 16px;
+   		margin-left: 0px;
+   	}
+   	.feature {
+		padding: 0px 30px 0px;
+	}
+	.feature .feature-inner {
+    	padding: 30px 55px !important;
+	}
+	.feature .feature-inner h1 {
+	    font-size: 34px;
+	    line-height: 36px;
+	    font-weight: 700;
+	    margin-bottom: 15px;
+	}
+	.feature .feature-inner p {
+		padding-right: 165px !important;
+	}
+	.feature .feature-inner h4 strong {
+	    font-size: 60px;
+	    line-height: 80px;
+	    font-weight: 900;
+	    margin-bottom: 20px;
+	}
+	.feature .feature-inner h4 span {
+    	font-size: 13px;
+    }
+    .client {
+    	padding: 30px 0px 0px;
+	}
+	.intro-quote{
+		padding: 20px 0px;
+	}
+	.pic-quote {
+	    padding: 75px 0px 75px 170px;
+	}
+	.pic-quote p {
+	    font-size: 12px;
+	    margin: 30px 0px 0px 25px;
+	}	
+	.pic-quote h5 {
+	    font-size: 11px;
+	    font-weight: 600;
+	}
+	.quote-des { 
+	    padding: 40px 0px 40px;
+	    text-align: center;
+	}
+	.quote-des h1 {
+	    font-size: 25px;
+	    line-height: 30px;
+	}
+	.efficient .inner-effi {
+	    margin-top: -15px;
+	}
+	.efficient .inner-effi h2 {
+	    font-size: 20px;
+	    line-height: 28px;
+	    font-weight: 700;
+	    margin-bottom: 12px;
+	}
+	.efficient .inner-effi h6 {
+	    font-size: 13px;
+	    line-height: 20px;
+	    font-weight: 800;
+	}
+	.efficient .inner-effi p {
+    	font-size: 12px; 
+    	line-height: 18px;
+	}
+   	.efficient .inner-effi .btn-info {
+    	margin: 20px 0px 0px 0px;
+    	padding: 10px 18px;
+	    font-size: 11px;
+	    letter-spacing: 2px;
+    }
+    .design{
+    	padding: 0px;
+    }
+    .design .title {
+    	padding: 10px 0px 20px;
+    }
+    .design .title h1 {
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 15px;
+	}
+	.design .title p {
+	    font-size: 13px;
+	    line-height: 23px;
+	    padding: 0px 15px;
+	    margin-bottom: 15px;
+	}
+	.design .design-inner{
+		padding: 30px 0px;
+	}
+	.design .design-inner h5 {
+	    font-size: 17px;
+	    line-height: 25px;
+	    margin-top: 20px;
+	}
+	.design .design-inner p {
+	    font-size: 14px;
+	}
+	.testimonial {
+	    padding: 10px 0px;
+	}
+	.testimonial .col-md-3{
+		padding: 0px 50px;
+	}
+	.testimonial .title h1 {
+	    font-size: 19px;
+	    line-height: 10px;
+	    margin-bottom: 20px;
+	}
+	.testi-inner{
+		margin-bottom: 40px;
+		padding: 0px 30px;
+	}
+	.testi-inner .text-inner {
+    	padding: 20px 0px 0px;
+    }
+    .testi-inner .text-inner h4 {
+	    font-size: 14px;
+	    line-height: 24px;
+	    font-weight: 600;
+	    margin: 20px 10px;
+	}
+	.footer-section{
+		padding-bottom: 0px;
+		padding-top: 0px;
+		background-size: cover;
+	}
+	.footer-section .faq {
+	    padding: 15px 10px;
+	    margin-bottom: 0px;
+	}
+	.footer-section .faq .title h1 {
+	    font-size: 22px;
+	    line-height: 27px;
+	    margin-bottom: 0px;
+	}
+	.footer-section .faq .btn-link {
+		font-size: 13px;
+	}
+	.footer-section .faq .card-body{
+		padding-top: 0px;
+	}
+	.footer-menu ul{
+		margin-top: -30px;
+	}
+	.footer-menu ul li {
+	    font-size: 13px;
+	    margin: 0px 15px 0px 0px;
+	}
+	.footer-copyright p {
+	    font-size: 12px;
+	    text-align: left;
+	    margin-top: -50px;
+	    padding-bottom: 10px;
+	}
+  
 }
