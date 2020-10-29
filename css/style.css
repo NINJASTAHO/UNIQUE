@@ -460,6 +460,9 @@ a, a:hover{
     text-decoration: none;
     color: #ffffff;
 }
+.footer-menu ul li a:hover, .footer-menu ul li a:focus{
+	color: #0d89fb;
+}
 .footer-copyright {
 	margin-top: 50px;
 	width: 100%;
